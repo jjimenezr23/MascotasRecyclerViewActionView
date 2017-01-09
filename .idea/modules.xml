@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MascotasRecyclerViewActionView.iml" filepath="$PROJECT_DIR$/MascotasRecyclerViewActionView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circularimagen/circularimagen.iml" filepath="$PROJECT_DIR$/circularimagen/circularimagen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circularimageview/circularimageview.iml" filepath="$PROJECT_DIR$/circularimageview/circularimageview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagen1/imagen1.iml" filepath="$PROJECT_DIR$/imagen1/imagen1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imagen2/imagen2.iml" filepath="$PROJECT_DIR$/imagen2/imagen2.iml" />
+    </modules>
+  </component>
+</project>

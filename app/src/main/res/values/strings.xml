@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="textoPerro">Mastin Español</string>
+    <string name="numero_like">0</string>
+    <string name="about">About</string>
+    <string name="Contacto">Contacto</string>
+    <string name="solicitarDatos">INGRESA TU COMENTARIO</string>
+    <string name="nombre_hint">Nombre Completo</string>
+    <string name="correo_hint">Correo Electronico</string>
+    <string name="mensaje_hint">Mensaje</string>
+    <string name="eviarEmail">Enviar COMETARIO</string>
+    <string name="tutuloBio">Biografia</string>
+    <string name="textoBio1"> Nombre:</string>
+    <string name="nombreBio">Jorge jimenez</string>
+    <string name="FechaBio">Fecha de naciomiento: </string>
+    <string name="FechaBio1">1987</string>
+    <string name="Historia">Historia:</string>
+    <string name="Historia1">Naci en Rivas, Nicaragua y vivi en Rivas hasta los 13 años.</string>
+    <string name="historia1">Mis padres me trajeron a Costa Rica a la edad de 13 años y desde entonces vivo en Costa Rica.</string>
+    <string name="historia2">Termine el colegio en colegios nocturnos y siempre me gusto Trabajar y ser independiente.</string>
+    <string name="historia3">cuando cumpli los 18 años Conoci la religion de Scientology y eso cambio mi vida para bien.
+        Deje de ser un ser miedoso y poco inteligente.</string>
+    <string name="historia4">Hice muchos cursos administrativos y soy actualmente Consultor Administrativo.</string>
+    <string name="historia5">Gracias a las tecnica de estudio que aprendi ahi, se me hace mas cencillo aprender y aplicar los datos.
+        Muchas gracias por leer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

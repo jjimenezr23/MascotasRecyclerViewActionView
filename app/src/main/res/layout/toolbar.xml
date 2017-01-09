@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colortoolbar"
+    android:title="@string/app_name"
+    android:titleTextAppearance="@color/colorletras"
+    android:elevation="@dimen/elevaciontoolbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog_footprint_48"
+        android:id="@+id/icono" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/colorletras"
+        android:textStyle="italic"
+        android:textSize="@dimen/textnombre"
+        android:id="@+id/nombreapp"
+        android:layout_marginLeft="@dimen/marginlefttoolbar"/>
+
+
+</LinearLayout>
+</android.support.v7.widget.Toolbar>
+

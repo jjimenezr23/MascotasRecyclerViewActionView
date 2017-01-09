@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bio_programador"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jjimenez.app.com.mascotasrecyclerviewactionview.BioProgramador"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/detalletoobar"
+        layout="@layout/toolbar"></include>
+
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tutuloBio"
+         android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/textoBio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombreBio"
+            android:layout_marginLeft="@dimen/leftmargin"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FechaBio"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FechaBio1"
+            android:layout_marginLeft="@dimen/leftmargin"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Historia"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Historia1"
+        android:layout_marginTop="@dimen/elevaciontoolbar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historia1"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/elevaciontoolbar"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historia2"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/elevaciontoolbar"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historia3"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/elevaciontoolbar"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historia4"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/elevaciontoolbar"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/historia5"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/elevaciontoolbar"
+
+        />
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombreBio"
+        android:layout_marginTop="@dimen/elevaciontoolbar"
+
+
+        />
+
+
+</LinearLayout>

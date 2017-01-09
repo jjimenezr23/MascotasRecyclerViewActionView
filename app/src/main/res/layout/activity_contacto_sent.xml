@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contacto_sent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jjimenez.app.com.mascotasrecyclerviewactionview.ContactoSent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/detalletoobar"
+        layout="@layout/toolbar"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tituloContacto"
+        android:text="@string/solicitarDatos"
+        android:textColor="@color/colorletras"
+        android:layout_gravity="center"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_hint"
+        android:layout_marginTop="@dimen/marginleft"
+        android:id="@+id/nombreSend"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_hint"
+        android:layout_marginTop="@dimen/marginleft"
+        android:id="@+id/emailSend"/>
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/mensaje_hint"
+        android:layout_marginTop="@dimen/marginleft"
+        android:id="@+id/textSend"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/eviarEmail"
+        android:id="@+id/btnSend"/>
+
+
+
+
+
+</LinearLayout>
